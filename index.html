@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Little SHK Wonders Uploader</title>
+<style>
+  :root { --bg:#fbfaf7; --fg:#1d1d1f; --muted:#5b5b60; --line:#e3e1db; --link:#1a5fb4; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#17171a; --fg:#ececef; --muted:#a3a3aa; --line:#2c2c31; --link:#8cb4ff; }
+  }
+  body { margin:0; background:var(--bg); color:var(--fg);
+         font:16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width:680px; margin:0 auto; padding:48px 16px; }
+  h1 { font-size:1.6rem; margin:0 0 8px; }
+  p, li { color:var(--fg); }
+  .muted { color:var(--muted); }
+  a { color:var(--link); }
+  footer { margin-top:40px; padding-top:16px; border-top:1px solid var(--line); font-size:.9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Little SHK Wonders Uploader</h1>
+  <p class="muted">A private publishing tool for the Little SHK Wonders YouTube channel.</p>
+
+  <p>
+    Little SHK Wonders Uploader is a small tool used only by the owner of the
+    Little SHK Wonders YouTube channel. It uploads the channel's own original Shorts to that
+    channel and reads back each upload's settings to confirm they were applied correctly.
+  </p>
+
+  <p>It is not offered to the public and does not access anyone else's account.</p>
+
+  <p>The tool asks Google for two permissions, and only for the owner's own channel:</p>
+  <ul>
+    <li><strong>Manage your YouTube videos</strong> (<code>youtube.upload</code>): to upload videos.</li>
+    <li><strong>View your YouTube account</strong> (<code>youtube.readonly</code>): to confirm the
+      channel and check each upload's settings.</li>
+  </ul>
+
+  <p>This tool uses YouTube API Services. It is not made, endorsed or sponsored by YouTube or Google.</p>
+
+  <footer>
+    <a href="privacy.html">Privacy policy</a> ·
+    <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a> ·
+    <a href="https://policies.google.com/privacy">Google Privacy Policy</a>
+  </footer>
+</main>
+</body>
+</html>
